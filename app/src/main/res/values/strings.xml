@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">TinkoffFintechApp</string>
+    <string name="app_name">Финтех</string>
+    
+    <string name="main_chances_button_text">Оценить свои шансы</string>
+    <string name="main_stat_button_text">Посмотреть статистику группы</string>
+    <string name="main_fintech_logo_text">Тинькофф Финтех</string>
+    <string name="main_description_text">Оцени свою возможность пройти на стажировку в Тинькофф Финтех</string>
 </resources>
