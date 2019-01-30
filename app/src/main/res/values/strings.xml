@@ -11,5 +11,8 @@
     <string name="chances_name_text">Выберите Ваше имя</string>
     <string name="chances_choose_internship_text">Выберите стажировку</string>
 
+    <!--School Fragment-->
+    <string name="school_text">Финтех школа\nComing soon...</string>
+
 
 </resources>

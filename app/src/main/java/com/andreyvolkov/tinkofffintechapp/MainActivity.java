@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.andreyvolkov.tinkofffintechapp.Fragments.AccountFragment;
+import com.andreyvolkov.tinkofffintechapp.Fragments.SchoolFragment;
 import com.andreyvolkov.tinkofffintechapp.Helpers.BottomNavigationViewHelper;
 import com.andreyvolkov.tinkofffintechapp.Model.APIClient;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
@@ -56,19 +57,18 @@ public class MainActivity extends AppCompatActivity {
                     Fragment selectedFragment = null;
                     switch (item.getItemId()) {
                         case R.id.navNewsFeed:
-                            //selectedFragment = new CustomerSearchFragment();
+                            selectedFragment = new SchoolFragment();
                             break;
                         case R.id.navSchool:
-                            //selectedFragment = new CustomerNewsfeedFragment();
+                            selectedFragment = new SchoolFragment();
                             break;
                         case R.id.navInternship:
-                            //selectedFragment = new CustomerFavoritesFragment();
+                            selectedFragment = new AccountFragment();
                             break;
                         case R.id.navAccount:
-                            //selectedFragment = new CustomerFavoritesFragment();
+                            selectedFragment = new AccountFragment();
                             break;
                     }
-                    selectedFragment = new AccountFragment();
                     getSupportFragmentManager().beginTransaction().replace(R.id.main_container, selectedFragment).commit();
                     return true;
                 }

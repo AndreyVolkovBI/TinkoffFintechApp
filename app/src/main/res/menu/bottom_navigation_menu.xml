@@ -3,17 +3,17 @@
     <item
         android:id="@+id/navNewsFeed"
         android:icon="@drawable/nav_news_feed"
-        android:title="" />
+        android:title="Новости" />
     <item
         android:id="@+id/navSchool"
         android:icon="@drawable/nav_school"
-        android:title="" />
+        android:title="Школа" />
     <item
         android:id="@+id/navInternship"
         android:icon="@drawable/nav_internship"
-        android:title="" />
+        android:title="Стажировки" />
     <item
         android:id="@+id/navAccount"
         android:icon="@drawable/nav_account"
-        android:title="" />
+        android:title="Профиль" />
 </menu>
