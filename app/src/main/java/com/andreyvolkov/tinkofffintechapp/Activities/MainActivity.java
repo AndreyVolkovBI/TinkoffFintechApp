@@ -1,4 +1,4 @@
-package com.andreyvolkov.tinkofffintechapp;
+package com.andreyvolkov.tinkofffintechapp.Activities;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -18,6 +18,7 @@ import com.andreyvolkov.tinkofffintechapp.Fragments.NewsFeedFragment;
 import com.andreyvolkov.tinkofffintechapp.Fragments.SchoolFragment;
 import com.andreyvolkov.tinkofffintechapp.Helpers.BottomNavigationViewHelper;
 import com.andreyvolkov.tinkofffintechapp.Model.APIClient;
+import com.andreyvolkov.tinkofffintechapp.R;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
 public class MainActivity extends AppCompatActivity {
