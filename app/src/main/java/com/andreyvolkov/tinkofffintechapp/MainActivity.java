@@ -13,6 +13,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.andreyvolkov.tinkofffintechapp.Fragments.AccountFragment;
+import com.andreyvolkov.tinkofffintechapp.Fragments.InternshipFragment;
+import com.andreyvolkov.tinkofffintechapp.Fragments.NewsFeedFragment;
 import com.andreyvolkov.tinkofffintechapp.Fragments.SchoolFragment;
 import com.andreyvolkov.tinkofffintechapp.Helpers.BottomNavigationViewHelper;
 import com.andreyvolkov.tinkofffintechapp.Model.APIClient;
@@ -42,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
         MenuItem menuItem = menu.getItem(ACTIVITY_NUM);
         menuItem.setChecked(true);
 
+        Fragment selectedFragment = new NewsFeedFragment();
+        getSupportFragmentManager().beginTransaction().replace(R.id.main_container, selectedFragment).commit();
         setListeners();
     }
 
@@ -57,13 +61,13 @@ public class MainActivity extends AppCompatActivity {
                     Fragment selectedFragment = null;
                     switch (item.getItemId()) {
                         case R.id.navNewsFeed:
-                            selectedFragment = new SchoolFragment();
+                            selectedFragment = new NewsFeedFragment();
                             break;
                         case R.id.navSchool:
                             selectedFragment = new SchoolFragment();
                             break;
                         case R.id.navInternship:
-                            selectedFragment = new AccountFragment();
+                            selectedFragment = new InternshipFragment();
                             break;
                         case R.id.navAccount:
                             selectedFragment = new AccountFragment();

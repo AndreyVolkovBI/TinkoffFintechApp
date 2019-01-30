@@ -10,13 +10,18 @@ import android.view.ViewGroup;
 
 import com.andreyvolkov.tinkofffintechapp.R;
 
-public class SchoolFragment extends Fragment {
+public class InternshipFragment extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_school, container, false);
+        View view = inflater.inflate(R.layout.fragment_internship, container, false);
+        init(view);
         return view;
+    }
+
+    private void init(View view){
+
     }
 
 }

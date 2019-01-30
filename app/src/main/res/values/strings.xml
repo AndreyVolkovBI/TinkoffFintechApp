@@ -14,5 +14,14 @@
     <!--School Fragment-->
     <string name="school_text">Финтех школа\nComing soon...</string>
 
+    <!--Post item-->
+    <string name="post_item_value_text">Важное</string>
+    <string name="post_item_date_text">Дата поста</string>
+    <string name="post_item_content_text">Контент поста, контент поста, контент поста, контент поста, контент поста, контент поста</string>
+
+    <!--Internship item-->
+    <string name="internship_item_name_text">Название стажировки</string>
+    <string name="internship_item_description_text">Описание стажировки, описание стажировки, описание стажировки, описание стажировки, описание стажировки</string>
+
 
 </resources>
