@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
+    android:id="@+id/item_internship_layout"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
     android:layout_width="match_parent"
-    android:layout_height="120dp"
+    android:layout_height="145dp"
     android:background="@drawable/rounded_main_layout">
 
     <TextView
@@ -10,8 +13,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:textColor="@color/colorBlack"
+        android:textColor="@color/colorPrimaryDark"
         android:text="@string/internship_item_name_text"/>
+
+    <TextView
+        android:id="@+id/internship_item_places"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorRed"
+        android:text="@string/internship_item_places_text"/>
 
     <TextView
         android:id="@+id/internship_item_description"
@@ -19,9 +31,18 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_below="@+id/internship_item_name"
+        android:layout_below="@+id/internship_item_places"
         android:textColor="@color/colorBlack"
         android:text="@string/internship_item_description_text"/>
+
+
+    <TextView
+        android:id="@+id/internship_item_exams"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/internship_item_description"
+        android:textColor="@color/colorBlack"
+        android:text="@string/internship_item_exams_text"/>
 
 </RelativeLayout>

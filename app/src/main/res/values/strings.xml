@@ -24,7 +24,9 @@
 
     <!--Internship item-->
     <string name="internship_item_name_text">Название стажировки</string>
+    <string name="internship_item_places_text">13 мест</string>
     <string name="internship_item_description_text">Описание стажировки, описание стажировки, описание стажировки, описание стажировки, описание стажировки</string>
+    <string name="internship_item_exams_text">Экзамены: программирование, математика</string>
 
 
 </resources>
