@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navNewsFeed"
+        android:icon="@drawable/nav_news_feed"
+        android:title="" />
+    <item
+        android:id="@+id/navSchool"
+        android:icon="@drawable/nav_school"
+        android:title="" />
+    <item
+        android:id="@+id/navInternship"
+        android:icon="@drawable/nav_internship"
+        android:title="" />
+    <item
+        android:id="@+id/navAccount"
+        android:icon="@drawable/nav_account"
+        android:title="" />
+</menu>
